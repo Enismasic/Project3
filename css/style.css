@@ -8,6 +8,15 @@
 	font-family: 'Raleway', sans-serif;
 }	
 
+#map{
+  position: absolute;
+  width: 60%;
+  height: 500px;
+  right: 20%;
+  border: solid pink 5px;
+  border-radius: 10px;
+}
+
   #me{
 	padding: 0.5em;
 	margin: auto;
@@ -159,4 +168,4 @@
     width: 400px;
     height: 250px;
 	}
-}
+
