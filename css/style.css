@@ -1,0 +1,162 @@
+  body {
+	padding: 0.5em;
+	margin: auto;
+	line-height: 1.75;
+	text-align: left;
+    background-image: linear-gradient(MediumAquaMarine, Salmon);
+	color: black;
+	font-family: 'Raleway', sans-serif;
+}	
+
+  #me{
+	padding: 0.5em;
+	margin: auto;
+	line-height: 1.75;
+	text-align: center;
+	color: black;
+	position:relative;
+  }
+
+  figure {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+  }
+  
+  figure:after {
+    display: block;
+    margin: 10px;
+    flex: auto;
+
+}
+
+  h1 {
+   text-align: center; 
+   color: black;
+   padding: 1em;
+   margin:auto ;
+   position: relative;
+}
+
+  h2 {
+    text-align: left;
+    margin: auto;
+    color: purple;
+    padding: 1em;
+	position:relative;
+  }
+
+  h3 {
+    text-align: left;
+    margin: auto;
+    color: purple;
+    padding: 1em;
+  }
+
+  h4 {
+    text-align: left;
+    margin: auto;
+    color: purple;
+    padding: 1em;
+  }
+  
+  ul{
+  margin-left: 1em;
+  list-style-type: none;
+}
+
+  #hob{
+  margin-left: 1em;
+  list-style-type: circle; 
+  }
+  
+  nav{
+  overflow: hidden;
+  }
+
+  nav ul{
+  list-style-type: none;
+  margin: 5px;
+  }
+
+  nav ul li{
+  float: left;
+  }
+
+  nav ul li a{
+  display: block;
+  padding: 10px 30px;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-decoration: none;
+  }
+  
+  nav {
+    height: 35px;
+    padding-left: 18px;
+    border-radius: 15px;
+    display: block;
+  }
+   nav {
+    margin: 0 auto;
+    padding: 15px;
+    list-style: none
+  }
+
+@media screen and (min-width: 360px) {
+  figure{
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  figure {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  img{
+	  width:400px;
+	  display: block;
+	  margin: 25px;
+  }
+  
+  #anime{
+	  width:100px;
+	  height:100px;
+	  position: absolute;
+	  top: 0px;
+	  right: 0px;
+  }
+  
+  #vid1 {
+    width: 400px;
+    height: 250px;
+}
+ #vid2 {
+    width: 400px;
+    height: 250px;
+}
+ #vid3 {
+    width: 400px;
+    height: 250px;
+	}
+}
